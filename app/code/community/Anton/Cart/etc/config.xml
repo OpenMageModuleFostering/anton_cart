@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Anton_Cart>
+        <version>0.0.1</version>
+        </Anton_Cart>
+    </modules>
+    <frontend>
+        <events>
+            <checkout_cart_add_product_complete>
+                <observers>
+                    <cart_observer>
+                        <class>cart/observer</class>
+                        <method>addToCart</method>
+                    </cart_observer>
+                </observers>
+            </checkout_cart_add_product_complete>
+        </events>
+    </frontend>
+    <global>
+        <models>
+            <cart>
+                <class>Anton_Cart_Model</class>
+            </cart>
+        </models>
+    </global>
+</config>

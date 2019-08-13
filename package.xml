@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Anton_Cart</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension allow to add product in cart without redirecting to cart's page.</summary>
+    <description>This extension allow to add product in cart without redirecting to cart's page.&#xD;
+All buttons "Add to Cart" in your theme must to send "uenc" param to redirect at sender page.</description>
+    <notes>First release</notes>
+    <authors><author><name>Anton</name><user>Krivoruchko</user><email>toanton@eml.cc</email></author></authors>
+    <date>2012-09-06</date>
+    <time>23:25:23</time>
+    <contents><target name="magecommunity"><dir name="Anton"><dir name="Cart"><dir name="Model"><file name="Observer.php" hash="b3c2dd298de02ecd74cbc3390f6f0301"/></dir><dir name="etc"><file name="config.xml" hash="80759c6517eaa31accb34589c51af49d"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Anton_Cart.xml" hash="2122f82d938196987d424572faba8b54"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
