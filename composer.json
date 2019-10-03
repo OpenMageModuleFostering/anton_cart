@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Anton_Cart",
+    "name": "openmage-module-fostering\/anton_cart",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension allow to add product in cart without redirecting to cart's page.",
     "authors": [
